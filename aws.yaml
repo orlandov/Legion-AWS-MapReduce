@@ -1,11 +1,12 @@
 hadoop_ec2:
-    aws_account_id: your_account_id
-    aws_access_key_id: your_account_key_id
-    aws_secret_access_key: your_secret_access_key
+    aws_account_id: 1786-5305-3818
+    aws_access_key_id: AKIAJZK5COIHYVEBR5OA
+    aws_secret_access_key: 8UK/uMMBgA9CJS5pItommmg6OAvlNefDpVCG9Atr
 
 cluster:
     name: hadoop-ec2-cluster
+    #image_id: ami-ed59bf84
     image_id: ami-b0fe1ad9
     slaves: 1
-    key_name: your_keyname
-    key_file: your_keyfile.pem
+    key_name: orlandokey
+    key_file: orlandokey.pem

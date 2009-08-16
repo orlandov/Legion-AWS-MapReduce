@@ -1,4 +1,6 @@
 #!/bin/bash
 
 # mirror slave directory to s3
-s3cmd sync slave s3://slave-legion-2wycked-net/
+tar zcvf slave.tgz slave/*
+
+s3cmd put slave.tgz s3://slave-legion-2wycked-net/slave.tgz

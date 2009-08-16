@@ -1,0 +1,71 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use YAML;
+use Net::Amazon::HadoopEC2;
+
+use Data::Dumper;
+
+my $aws_conf = YAML::LoadFile('aws.yaml');
+warn Dumper $aws_conf;
+my $hadoop = Net::Amazon::HadoopEC2->new($aws_conf->{hadoop_ec2});
+
+# my $cluster = $hadoop->launch_cluster(
+#     $aws_conf->{cluster}
+# );
+
+my $cluster = $hadoop->find_cluster(
+    {
+        name     => 'hadoop-ec2-cluster',
+        key_name => 'orlandokey',
+        key_file => 'orlandokey.pem'
+    }
+);
+# 
+# warn "got here" . Dumper $cluster;
+# my $result = $cluster->execute({ command => 'ls /' });
+# warn $result->stdout;
+
+# my $cluster = $hadoop->launch_cluster(
+#     $aws_conf->{cluster}
+# );
+
+$cluster->push_files(
+    {
+        files       => [ qw( aws.yaml ) ],
+        destination => '/root/',
+    }
+);
+
+# cache blender in s3
+# -cache s3n://sources-2wycked-net/path_to_executable#local_path
+my $options = join(
+    ' ',
+    -input  => 's3n://jobs-legion-2wycked-net/account/test-job/',
+    
+    # deply config
+    -cache => 'aws.yaml',
+
+    # install blender the slave
+    -cacheArchive  => 's3n://blender-legion-2wycked-net/blender-2.49.tgz#blender',
+
+    # install libs on slave
+    -cacheArchive  => 's3n://slave-legion-2wycked-net/slave.tgz',
+
+    # install mapper
+    -mapper => 'perl mapper.pl',
+);
+
+my $streaming
+    = "/usr/local/hadoop-0.18.0/contrib/streaming/hadoop-0.18.0-streaming.jar";
+
+my $result = $cluster->execute(
+    {
+        command => "$hadoop jar $streaming $options",
+    }
+);
+
+__DATA__
+$cluster->terminate_cluster;
