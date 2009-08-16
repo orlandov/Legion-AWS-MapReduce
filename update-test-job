@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# create some test jobs
+s3cmd sync test-job s3://jobs-legion-2wycked-net/account/test-job

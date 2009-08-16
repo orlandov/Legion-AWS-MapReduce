@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# mirror slave directory to s3
+s3cmd sync slave s3://slave-legion-2wycked-net/

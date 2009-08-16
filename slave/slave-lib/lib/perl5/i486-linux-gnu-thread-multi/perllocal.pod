@@ -1,0 +1,286 @@
+=head2 Sat Aug 15 18:24:46 2009: C<Module> L<URI|URI>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.38>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:24:52 2009: C<Module> L<HTML::Tagset|HTML::Tagset>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.20>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:24:58 2009: C<Module> L<HTML::Parser|HTML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.61>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:25:25 2009: C<Module> L<LWP|LWP>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 5.830>
+
+=item *
+
+C<EXE_FILES: bin/lwp-request bin/lwp-mirror bin/lwp-rget bin/lwp-download bin/lwp-dump>
+
+=back
+
+=head2 Sat Aug 15 18:25:29 2009: C<Module> L<XML::Parser|XML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.36>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:25:42 2009: C<Module> L<XML::Simple|XML::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.18>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:25:44 2009: C<Module> L<Class::Accessor|Class::Accessor>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.33>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:25:51 2009: C<Module> L<Digest::SHA1|Digest::SHA1>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.12>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:25:52 2009: C<Module> L<Digest::HMAC|Digest::HMAC>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:25:53 2009: C<Module> L<Digest::MD5::File|Digest::MD5::File>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.07>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:26:14 2009: C<Module> L<LWP::UserAgent::Determined|LWP::UserAgent::Determined>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.04>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:26:15 2009: C<Module> L<Amazon::S3|Amazon::S3>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.441>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug 15 18:27:02 2009: C<Module> L<local::lib|local::lib>
+
+=over 4
+
+=item *
+
+C<installed into: /home/orlando/projects/Legion-MapReduce-EC2/slave-lib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.004003>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

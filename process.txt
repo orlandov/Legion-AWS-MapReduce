@@ -1,0 +1,15 @@
+Master
+------
+
+Mapper
+------
+
+- file
+
+- grab json from stdin
+- decode json
+- check if blender cached
+- fetch and cache blender from s3 or cache
+- read and cache source file from s3 or cache
+- run blender
+- push rendered frame to s3
